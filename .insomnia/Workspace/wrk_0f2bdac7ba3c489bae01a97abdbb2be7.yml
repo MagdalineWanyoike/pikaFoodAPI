@@ -1,8 +1,8 @@
 _id: wrk_0f2bdac7ba3c489bae01a97abdbb2be7
 type: Workspace
 parentId: null
-modified: 1669142646428
+modified: 1669144554457
 created: 1669142646428
 name: PikaFood.yaml
-description: ""
+description: The Food Delivery app backend built with Django
 scope: design

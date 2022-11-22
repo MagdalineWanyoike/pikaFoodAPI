@@ -1,0 +1,14 @@
+_id: env_21526cb4cf254ba38a347501c5d04580
+type: Environment
+parentId: env_f2dec1e648558c0360481e74e68b3dc772a8b94c
+modified: 1669142894457
+created: 1669142747067
+name: PikaFood-local
+data:
+  local_url: http://127.0.0.1:8000/
+dataPropertyOrder:
+  "&":
+    - local_url
+color: null
+isPrivate: false
+metaSortKey: 1669142747067

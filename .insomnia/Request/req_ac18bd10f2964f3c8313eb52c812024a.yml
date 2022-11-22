@@ -1,0 +1,40 @@
+_id: req_ac18bd10f2964f3c8313eb52c812024a
+type: Request
+parentId: fld_d361e4705dc548d39587461559bb14c6
+modified: 1669143696740
+created: 1669142730288
+url: "{{ _.local_url }}auth/users/"
+name: Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{
+
+    \     \"email\": \"john.doe@mail.com\",
+
+    \     \"first_name\": \"John\",
+
+    \     \"last_name\": \"Doe\",
+
+    \     \"password\": \"Admin12345\",
+
+    \t   \"re_password\": \"Admin12345\"
+
+    }
+
+    \ "
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b6e07bc312174a488f50ffea3d773001
+authentication: {}
+metaSortKey: -1669142730288
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

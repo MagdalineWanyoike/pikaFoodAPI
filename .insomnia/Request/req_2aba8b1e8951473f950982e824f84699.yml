@@ -1,0 +1,31 @@
+_id: req_2aba8b1e8951473f950982e824f84699
+type: Request
+parentId: fld_d361e4705dc548d39587461559bb14c6
+modified: 1669143702742
+created: 1669143257650
+url: "{{ _.local_url }}auth/token/login/"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "john.doe@mail.com",  
+    	"password": "Admin12345"
+        
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b6526665506e41f5b0fee111ebf010d7
+authentication: {}
+metaSortKey: -1669142730238
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
